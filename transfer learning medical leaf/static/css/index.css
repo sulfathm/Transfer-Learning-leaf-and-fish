@@ -1,0 +1,39 @@
+.body1{
+  background-image: url(../image/leaf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+.body1 h2{
+  text-align: center;
+
+  
+}
+#area{
+  text-align: center;
+  margin-left: 14cm;
+
+}
+#submit{
+  margin-left: 15.3cm;
+  color:rgb(105, 35, 35);
+ 
+}
+.body2 h2{
+  text-align: center;
+  margin-top: 6cm;
+}
+.body2{
+  background-color: steelblue;
+}
+h2{
+  text-align: center;
+  padding-top: 200px;
+}
+#choosefile{
+  margin-left: 600px;
+  padding-bottom: 400px;
+}
+.submit2{
+  padding-bottom: 500px;
+}

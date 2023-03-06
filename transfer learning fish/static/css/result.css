@@ -1,0 +1,11 @@
+.background{
+    background-image: url(../image/kerfin7_nea_2664.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 750px; */
+}
+h2{
+    text-align: center;
+    color: black;
+    padding-top: 400px;
+}

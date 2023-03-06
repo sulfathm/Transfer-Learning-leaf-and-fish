@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/java script/index.js">
+</head>
+<body>
+    <!-- <h2>Medical Leaf Prediction</h2> -->
+    <div style="background-image: url(../static/image/leaf.jpg); height: 700px; width: 1300px; background-size: cover;">
+        <!-- <form action="{{url_for('predict')}}" method="post" name="image"></form> -->
+        <!-- <action="{{url_for('predict')}}" id="form" name="text1" method="post"> -->
+        <h2>Medical  Leaf  Prediction</h2>
+        <div class="drop-zone" style="margin-left: 530px; margin-top: 50px;">
+            <form  method="post" name="image"></form>
+            <span class="drop-zone__prompt">Drop file here or click to upload</span>
+            <input type="file" name="myFile" class="drop-zone__input">
+            <form>
+                <input action="{{url_for('predict')}}" type="submit" value="Submit" style="margin-top: 350px;">
+            </form>
+        </div>
+        <!-- <h2 style="text-align: center;">{{prediction_text}}</h2> -->
+        
+        <script src="../static/java script/index.js"></script>
+        
+        <h2 style="text-align: center;">{{prediction_text}}</h2>
+    </div>
+    
+    
+</body>
+</html>
